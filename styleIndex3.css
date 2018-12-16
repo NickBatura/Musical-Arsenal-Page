@@ -1,0 +1,735 @@
+body {
+  margin: 0 auto ;
+  width: 1200px;
+  box-shadow: 0 0 10px;
+}
+.header{
+  position: absolute;
+  z-index: 10;
+}
+
+.top-header{
+  width: 1200px;
+height: 50px;
+background: #af9559;
+display: inline-flex;
+z-index: 10;
+color: #fefefe;
+}
+
+ .town{
+   width: 236px;
+   height: 15px;
+   font-family: Tahoma;
+   font-size: 14px;
+   font-weight: 400;
+   border-bottom-style: dashed;
+   border-bottom-width: 1px;
+ }
+
+.icon-phone{
+  margin-top: 16px;
+padding-left: 76px;
+}
+.number{
+  margin-top: 16px;
+  width: 174px;
+height: 14px;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+padding-left: 7px;
+}
+.lists__top-header{
+  display: inline-flex;
+  list-style-type: none;
+  margin: 16px 0 0 26px;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+
+}
+.list__top {
+  padding-left: 18px;
+  text-decoration: underline;
+}
+.arsenal{
+  font-family: Tahoma;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+.circle-top-header{
+  width: 20px;
+height: 20px;
+border: 1px solid rgba(254, 254, 254, 0.5);
+border-radius: 10px;
+margin: 16px 0 0 20px;
+}
+/*Конец верхней плашки*/
+.header-poisk{
+  width: 1200px;
+  height: 100px;
+  border-bottom: 1px solid grey;
+  background: #fefefe;
+  z-index: 10;
+  display: flex;
+}
+.logo-string{
+  margin: 20px 0 0 130px;
+}
+.logo-text{
+  color: #777777;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+margin: 9px 0 0 211px;
+}
+/*fffgfgfgfgfg*/
+.poisk{
+  width: 380px;
+height: 40px;
+border: 1px solid #919191;
+background-color: #ffffff;
+color: #919191;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+
+.poisk-instrument{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.button-img {
+  background: #fefefe;
+  position: relative;
+  border: 0;
+  right: 50px;
+  top: 5px;
+}
+.corsina-box{
+  width: 150px;
+height: 40px;
+border: 1px solid #d9d9d9;
+background-color: #f1f1f1;
+margin: 30px 0 0 30px;
+display: inline-flex;
+}
+.text-corsina{
+  width: 53px;
+height: 13px;
+color: #444444;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+position: relative;
+bottom: 8px;
+left: 8px;
+}
+.number-corsina{
+  color: #ffffff;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+position: relative;
+    left: 6px;
+    bottom: 8px;
+}
+
+.corsina-box img {
+  margin: 9px 0 11px 13px;
+}
+.number-border{
+  width: 25px;
+height: 15px;
+background-color: #c19d47;
+border-radius: 10px;
+position: relative;
+top: 13px;
+left: 15px;
+}
+.catalog {
+  width: 1200;
+  height: 60px;
+  border-bottom: 2px solid #ef383f;
+  z-index: 10;
+  background: #fefefe;
+}
+.catalog-list dl {
+  display: inline-flex;
+  color: #503737;
+font-family: Tahoma;
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+margin-left: 110px;
+margin-top: 22px;
+}
+.catalog-list dt {
+padding-left: 30px;
+}
+/*Content*/
+content {
+  position: relative;
+}
+.text-visual{
+  position: absolute;
+top: 303px;
+    right: 250px;
+}
+
+.brends{
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.brends-image{
+  padding-left: 30px;
+}
+
+.brends p {
+  margin: 0 auto;
+    width: 146px;
+    height: 14px;
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    color: #503737;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 435px;
+}
+.instrument-text{
+  text-align: center;
+}
+.instrument-text p {
+  color: #503737;
+font-family: Roboto;
+font-size: 40px;
+font-weight: 300;
+line-height: 60px;
+letter-spacing: 1px;
+margin-bottom: 22px;
+margin-top: 47px;
+}
+/*Распродажа*/
+.rasprodasa{
+  width: 1200px;
+height: 653px;
+}
+.segment-control dl {
+  display: inline-flex;
+  color: #fefefe;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+border: 1px solid #503737;
+padding: 10px 20px 10px 0;
+background: #503737;
+border-radius: 25px;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+.segment-control dt {
+  padding-left: 23px;
+}
+.segment-control{
+      text-align: center;
+}
+.rasprodasa-tovar__box{
+  width: 960px;
+height: 500px;
+border: 1px solid #d0d0d0;
+margin: 0 auto;
+display: flex;
+}
+.rasprodasa-tovar__minibox{
+  width: 240px;
+height: 500px;
+border-right:1px solid #d0d0d0;
+text-align: center;
+position: relative;
+}
+.rasprodasa-tovar__minibox:last-child {
+  border-right: 0;
+}
+
+.minibox-img-acordeon{
+  margin-top: 80px;
+}
+
+.minibox-text{
+  width: 178px;
+  height: 85px;
+  margin-top: 87px;
+margin-left: 31px;
+position: absolute;
+    bottom: 91px;
+}
+.minibox-text p:last-child {
+  color: #444444;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+width: 175px;
+line-height: 20px;
+}
+.minibox-text p:first-child{
+  font-family: Tahoma;
+  font-size: 16px;
+  color: #444444;
+  padding-bottom: 1px;
+  text-decoration: underline;
+}
+.minibox-price{
+  position: absolute;
+bottom: 0;
+}
+.minibox-price p{
+  color: #e73939;
+font-family: Tahoma;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 30px;
+    margin-left: 57px;
+}
+
+.minibox-price span{
+  color: #777777;
+font-size: 14px;
+}
+/*Второй товар*/
+.minibox-img-gitar{
+  margin-top: 4px;
+}
+.minibox-img-baraban{
+  margin-top: 110px;
+}
+.minibox-img-piano{
+  margin-top: 10px;
+}
+.deystvia-block {
+  width: 120px;
+  height: 40px;
+  background: #503737;
+  margin: 136px auto;
+border-radius: 25px;
+    margin-bottom: 0;
+}
+.deystvia{
+  display: flex;
+  padding-top: 10px;
+}
+.deystvia-icon {
+padding-left: 12px;
+}
+.podpiska-rasprodasa{
+  color: #503737;
+  font-family: Tahoma;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+text-transform: uppercase;
+}
+.podpiska-rasprodasa dl {
+  display: flex;
+  margin-left: 388px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.podpiska-rasprodasa dt {
+  padding-left: 25px;
+}
+.uslygi {
+  margin-top: 110px;
+}
+.uslygi legend {
+  color: #503737;
+font-family: Roboto;
+font-size: 40px;
+font-weight: 300;
+letter-spacing: 1px;
+text-align: center;
+}
+.uslygi fieldset{
+  width: 1000px;
+height: 420px;
+border-color: #d6cbcb;
+margin: 0 auto;
+}
+.uslugi-string {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+    right: 20px;
+}
+.uslugi-img-text{
+  display: flex;
+}
+
+.uslugi-img-text p {
+  color: #d8424b;
+font-family: Tahoma;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+text-decoration: underline;
+letter-spacing: 0.45px;
+margin-top: 0;
+margin-left: 11px;
+}
+.uslugi-text  {
+  color: #444444;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+}
+.uslugi-block{
+  padding-left: 61px;
+}
+.akcii-text{
+  text-align: center;
+  margin-top: 51px;
+    color: #503737;
+    font-family: Roboto;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.akcii-text p {
+  margin-top: 51px;
+  margin-bottom: 0;
+}
+.akcii-string{
+  display: flex;
+  width: 960px;
+  height: 300px;
+  margin: 34px auto;
+  position: relative;
+  right: 20px;
+}
+.akcii-block{
+  display: flex;
+  padding-left: 20px;
+}
+.akcii-block-text{
+background: #f4f3eb;
+width: 251px;
+height: 300px;
+}
+
+.akcii-block-text p {
+  margin-left: 19px;
+}
+.akcii-block-text p:first-child{
+  color: #d8424b;
+font-size: 18px;
+line-height: 20px;
+text-decoration: underline;
+font-family: Tahoma;
+}
+.akcii-block-text p:last-child{
+  color: #444444;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+}
+.akcii-list{
+  color: #503737;
+  font-family: Tahoma;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+text-transform: uppercase;
+text-align: center;
+margin-left: 440px;
+}
+.akcii-list dl {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.akcii-list dt {
+  padding-left: 25px;
+}
+.newitem{
+  width: 1120px;
+height: 613px;
+margin: 0 auto;
+}
+.newitem-text{
+  color: #503737;
+font-family: Roboto;
+font-size: 40px;
+font-weight: 300;
+letter-spacing: 1px;
+text-align: center;
+}
+.newitem-text p {
+  margin-top: 47px;
+  margin-bottom: 40px;
+}
+
+.newitem-tovar__box{
+  width: 960px;
+height: 500px;
+border: 1px solid #d0d0d0;
+margin: 0 auto;
+display: flex;
+}
+.newitem-tovar__minibox{
+  width: 240px;
+height: 500px;
+border-right:1px solid #d0d0d0;
+text-align: center;
+position: relative;
+}
+.newitem-tovar__minibox:last-child {
+  border-right: 0;
+}
+
+.minibox-img-newacordeon{
+  margin-top: 80px;
+}
+
+.minibox-newtext{
+  width: 178px;
+  height: 85px;
+  margin-top: 87px;
+margin-left: 31px;
+position: absolute;
+bottom: 91px;
+}
+.minibox-newtext p:last-child {
+  color: #444444;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+width: 175px;
+line-height: 20px;
+}
+.minibox-newtext p:first-child{
+  font-family: Tahoma;
+  font-size: 16px;
+  color: #444444;
+  padding-bottom: 1px;
+  text-decoration: underline;
+}
+.minibox-newprice{
+  position: absolute;
+bottom: 0;
+}
+.minibox-newprice p{
+  color: #e73939;
+font-family: Tahoma;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 30px;
+    margin-left: 57px;
+}
+
+.minibox-newprice span{
+  color: #777777;
+font-size: 14px;
+}
+.minibox-img-newgitar{
+  margin-top: 4px;
+}
+.minibox-img-newvaltorna{
+  margin-top: 110px;
+}
+.minibox-img-newtruba{
+  margin-top: 10px;
+}
+
+.news-reviews{
+  width: 1200px;
+height: 510px;
+background: #f4f3eb;
+margin: 0 auto;
+margin-top: 79px;
+}
+
+.news-reviews__string{
+  display: flex;
+}
+.news-reviews__zagolovok{
+  color: #503737;
+font-family: Roboto;
+font-size: 30px;
+font-weight: 300;
+letter-spacing: 0.75px;
+margin-bottom: 31px;
+}
+.news-reviews__zagolovok p {
+  margin-top: 0;
+}
+.news-reviews__block_imgtext{
+  display: flex;
+}
+
+.news-reviews__block_text p:first-child{
+  color: #444444;
+  font-family: Tahoma;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration: underline;
+      margin-top: 0;
+}
+.news-reviews__block_text p:last-child{
+  color: #777777;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+}
+
+.news-reviews__block_text span{
+  font-family: "Times New Roman PSMT";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+.news-reviews__block_text{
+  margin-left: 19px;
+  position: relative;
+bottom: 7px;
+}
+.news-reviews__block{
+  padding-left: 55px;
+}
+.news-reviews__string{
+  margin-left: 55px;
+  padding-top: 40px;
+}
+.news-reviews__list dl{
+  color: #342a2a;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+text-decoration: underline;
+text-transform: uppercase;
+display: flex;
+margin-top: 4px;
+position: relative;
+right: 20px;
+}
+.news-reviews__list dt{
+  padding-left: 20px;
+}
+.footer{
+  width: 1200px;
+height: 260px;
+background: #5d5555;
+}
+.footer-lists{
+  display: flex;
+}
+.footer-long__list{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 95px;
+}
+.footer-copiright dl {
+  color: #ffffff;
+}
+.footer-copiright dt:first-child{
+  font-size: 14px;
+  line-height: 30px;
+  font-family: Tahoma;
+  font-weight: 400;
+}
+.footer-copiright dt:last-child{
+  color: #ffffff;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+text-decoration: underline;
+}
+.footer-razrabotka dl {
+  color: #ffffff;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+}
+.footer-razrabotka span{
+  text-decoration:underline;
+}
+.footer-place-list span{
+  font-size: 14px;
+line-height: 20px;
+text-decoration: underline;
+color: #ffffff;
+font-family: Tahoma;
+}
+.footer-place-list dl{
+  margin-bottom: 27px;
+}
+.footer-place-list dd{
+  color: #ffffff;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+padding-top: 15px;
+text-decoration: underline;
+position: relative;
+right: 29px;
+}
+.long-list{
+  color: #ffffff;
+font-family: Tahoma;
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+text-decoration: underline;
+padding-left: 36px;
+}
+.footer-lists{
+  margin-left: 130px;
+  position: relative;
+  top: 33px;
+}
+.footer-place{
+  margin-left: 73px;
+position: relative;
+top: 5px;
+}
+.footer-place-list img{
+  position: relative;
+  top: 5px;
+  right: 12px;
+}
+.footer-site{
+  display: flex;
+}
+.footer-site-img{
+  margin-right: 10px;
+}
+.newitem-list dl {
+display: flex;
+font-family: Tahoma;
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+color: #503737;
+}
+.newitem-list dt{
+  text-decoration: underline;
+  padding-left: 25px;
+}
+.newitem-list{
+  margin-left: 355px;
+
+}
